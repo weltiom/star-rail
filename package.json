@@ -1,0 +1,31 @@
+{
+  "name": "hsr-discord-bot",
+  "version": "2.0.0",
+  "description": "بوت ديسكورد متقدم لـ Honkai: Star Rail مع ترجمة عربية كاملة",
+  "main": "bot-arabic.js",
+  "scripts": {
+    "start": "node bot-arabic.js",
+    "dev": "node bot-arabic.js",
+    "legacy": "node bot.js",
+    "advanced": "node bot-advanced.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "honkai",
+    "star-rail",
+    "hsr",
+    "arabic",
+    "game-guide"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
